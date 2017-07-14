@@ -1,0 +1,10 @@
+{
+  "hostname": "localhost",
+  "port": "54321",
+  "tlsEnabled": true,
+  "caCert": "/etc/pki/vdsm/certs/cacert.pem",
+  "vdsmCert": "/etc/pki/vdsm/certs/vdsmcert.pem",
+  "vdsmKey": "/etc/pki/vdsm/keys/vdsmkey.pem",
+  "incomingHeartbeat": 10,
+  "outgoingHeartbeat": 10
+}
