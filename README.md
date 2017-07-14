@@ -1,6 +1,6 @@
 # vdsm-jsonrpc-go
 
-Jsonrpc over stomp go binging which allows to talk to [Vdsm](https://github.com/ovirt/vdsm)
+Jsonrpc over stomp go binding which allows to talk to [Vdsm](https://github.com/ovirt/vdsm)
 
 ## Features
 
