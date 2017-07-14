@@ -21,12 +21,17 @@ func main() {
 		log.Fatal(err)
 	}
 	destination := vdsm.GetId()
-	client.Subscribe(destination)
+	err = client.Subscribe(destination)
+	if err != nil {
+		log.Fatal(err)
+		client.Disconnect()
+	}
 	response, err := client.Send(destination, "Host.getCapabilities", []string{})
 	if err != nil {
 		log.Fatal(err)
+	} else {
+		log.Print(response)
 	}
-	log.Print(response)
 	client.Unsubscribe(destination)
 	client.Disconnect()
 }
