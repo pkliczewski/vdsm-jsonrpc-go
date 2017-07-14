@@ -24,7 +24,7 @@ Build and run example:
 go build && go run example/main.go
 ```
 
-Example configuration can be found in (https://github.com/pkliczewski/vdsm-jsonrpc-go/example/config.json)
+Example configuration can be found [here](https://github.com/pkliczewski/vdsm-jsonrpc-go/blob/master/example/config.json)
 
 
 
